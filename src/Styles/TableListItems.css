@@ -1,0 +1,60 @@
+.table-items {
+  border: 0.5px solid black;
+  display: inline-block;
+  border-radius: 8px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 10px 5px 5px gray;
+  margin: 30px;
+  position: relative;
+}
+
+.main-container {
+  padding: 10px;
+}
+
+.restaurant-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.image {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px 8px 0 0;
+}
+
+.info-container {
+  display: flex;
+}
+
+.info-container > :first-child {
+  padding-right: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-container > button {
+  font: inherit;
+  cursor: pointer;
+  background: #da3743;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  width: 200px;
+}
+
+.button-container > button:hover {
+  background-color: #b62d36;
+  border-color: #b62d36;
+  color: whitesmoke;
+}
